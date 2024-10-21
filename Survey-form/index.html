@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Survey Form</h1>
+        <form id="surveyForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="feedBack">Name:</label>
+            <textarea name="" id="feedBack" rows="4" required></textarea>
+
+            <label for="rating">Rate us 1-5</label>
+            <select id="rating" required>
+                <option value="" disabled selected>select your rating</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+
+            <button type="submit">Submit</button>
+
+        </form>
+        <div id="result" class="hidden">
+            <h2>submitted responses:</h2>
+            <p id="responseName"></p>
+            <p id="responseEmail"></p>
+            <p id="responseFeedback"></p>
+            <p id="responseRating"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

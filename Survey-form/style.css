@@ -1,0 +1,55 @@
+body {
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+input,
+textarea,
+select {
+  width: 90;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #218838;
+}
+
+.hidden {
+  display: none;
+}
+#surveyForm,
+input {
+  width: 98%;
+}
+#surveyForm,
+textarea {
+  width: 98%;
+}

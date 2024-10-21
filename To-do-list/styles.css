@@ -1,0 +1,55 @@
+body {
+  background-color: aliceblue;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.input-group input {
+  padding: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+.input-group button {
+  padding: 10px;
+  border: 1px solid white;
+  background-color: lightgreen;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.input-group button:hover {
+  background-color: rgb(85, 227, 85);
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid rgb(211, 209, 209);
+}

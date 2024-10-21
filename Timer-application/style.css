@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  text-align: center;
+}
+h1 {
+  margin-bottom: 20px;
+}
+.timer {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.btn {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: rgb(89, 89, 239);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: blue;
+}
+#pauseButton,
+#resumeButton {
+  display: none;
+}

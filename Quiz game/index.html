@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="quiz-container">
+        <h1>General Quiz</h1>
+        <div id="quiz">
+            <div id="question" class="question">Question text goes here</div>
+            <div class="options">
+                <label>
+                    <input type="radio" name="option" class="option" value="0">
+                    <span id="option0">Option 1</span>
+                </label>
+                <label>
+                    <input type="radio" name="option" class="option" value="1">
+                    <span id="option1">Option 2</span>
+                </label>
+                <label>
+                    <input type="radio" name="option" class="option" value="2">
+                    <span id="option2">Option 3</span>
+                </label>
+                <label>
+                    <input type="radio" name="option" class="option" value="3">
+                    <span id="option3">Option 4</span>
+                </label>
+
+            </div>
+            <button id="submit" class="submit-btn">Submit Answer</button>
+        </div>
+        <div id="result" class="result hidden">You Scored <span id="score"> 0 </span> out of <span id="total"> 0</span>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
